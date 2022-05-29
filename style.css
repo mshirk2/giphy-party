@@ -1,0 +1,51 @@
+body {
+    background-color: rgba(57, 131, 112, 0.8);
+    text-align: center;
+}
+
+h1 {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.5rem;
+    padding: 40px;
+    color: white;
+}
+
+#search-text {
+    margin: 20px;
+    padding: 10px;
+    width: 50%;
+    min-width: 500px;
+    border: none;
+    border-radius: 7px;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+#submit-btn, #remove-btn {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#results {
+    column-count: 3;
+    column-gap: 20px;
+    
+}
+
+.result-div {
+    display: inline;
+    position: relative;
+    margin: 10px;
+}
+
+.gif {
+    width: 300px;
+    height: auto;
+} 
